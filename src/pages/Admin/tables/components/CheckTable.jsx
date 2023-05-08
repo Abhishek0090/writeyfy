@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
-import CardMenu from "~/components/card/CardMenu";
-import Card from "~/components/card";
+import CardMenu from "~/components/Card/CardMenu";
+import Card from "~/components/Card";
 import Checkbox from "~/components/checkbox";
 
 import {

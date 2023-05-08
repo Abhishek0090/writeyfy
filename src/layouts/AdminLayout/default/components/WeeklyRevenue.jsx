@@ -1,4 +1,4 @@
-import Card from "~/components/card";
+import Card from "~/components/Card";
 import BarChart from "~/components/charts/BarChart";
 import {
   barChartDataWeeklyRevenue,

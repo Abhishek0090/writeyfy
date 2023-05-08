@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "~/assets/img/profile/image1.png";
 import image2 from "~/assets/img/profile/image2.png";
 import image3 from "~/assets/img/profile/image3.png";
-import Card from "~/components/card";
+import Card from "~/components/Card";
 import { AiFillFilePdf } from "react-icons/ai";
 
 const Project = () => {

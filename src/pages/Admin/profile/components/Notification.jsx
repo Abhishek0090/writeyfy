@@ -1,5 +1,5 @@
-import Card from "~/components/card";
-import CardMenu from "~/components/card/CardMenu";
+import Card from "~/components/Card";
+import CardMenu from "~/components/Card/CardMenu";
 import Switch from "~/components/switch";
 import React from "react";
 

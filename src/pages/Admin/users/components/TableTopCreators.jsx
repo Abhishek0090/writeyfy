@@ -1,4 +1,4 @@
-import Card from "~/components/card";
+import Card from "~/components/Card";
 import Progress from "~/components/progress";
 import React, { useMemo } from "react";
 import {

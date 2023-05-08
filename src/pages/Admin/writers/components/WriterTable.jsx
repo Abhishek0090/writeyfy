@@ -1,5 +1,5 @@
 import CardMenu from "~/components/Card/CardMenu";
-import Card from "~/components/card";
+import Card from "~/components/Card";
 import {
   useGlobalFilter,
   usePagination,

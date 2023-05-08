@@ -11,7 +11,7 @@ import tableDataTopCreators from "~/pages/Admin/marketplace/variables/tableDataT
 import { tableColumnsTopCreators } from "~/pages/Admin/marketplace/variables/tableColumnsTopCreators";
 import HistoryCard from "./components/HistoryCard";
 import TopCreatorTable from "./components/TableTopCreators";
-import NftCard from "~/components/card/NftCard";
+import NftCard from "~/components/Card/NftCard";
 import UserTable from "~/pages/Admin/users/components/UserTable";
 
 import {
