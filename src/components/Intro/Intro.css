@@ -1,0 +1,149 @@
+/* .Intro {
+  display: flex;
+  height: 100vh;
+  margin-top: 2rem;
+} */
+
+/* .Intro-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: self-start;
+} */
+/* .Intro-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+} */
+/* .Intro-name > :nth-child(1) {
+  letter-spacing: 3px;
+  color: var(--green);
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-top: 8px;
+} */
+
+/* .Intro-name > :nth-child(2) {
+  color: var(--black);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: -20px;
+  margin-left: 2px;
+} */
+/* .Intro-name > :nth-child(3) {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color: var(--black);
+} */
+/* .Intro-name > :nth-child(4) {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: var(--black);
+  display: flex;
+  gap: 10px;
+  letter-spacing: 1px;
+} */
+
+/* .links_icon {
+  display: flex;
+  gap: 2rem;
+} */
+
+/* .Intro-icons {
+  display: flex;
+  gap: 0rem;
+} */
+/* .Intro-icons > * {
+  transform: scale(0.5);
+}
+.Intro-icons > *:hover {
+  cursor: pointer;
+} */
+
+/* right side styling */
+/* .Intro-right {
+  flex: 1;
+  position: relative;
+} */
+/* .Intro-right > * {
+  position: absolute;
+  z-index: 1;
+} */
+
+/* .Intro-right > :nth-child(1) {
+  transform: scale(1.4);
+  left: 28%;
+} */
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .Intro-name {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Intro-name > :nth-child(1) {
+    letter-spacing: 3px;
+    color: var(--green);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 8px;
+  }
+
+  .Intro-name > :nth-child(2) {
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: -20px;
+    margin-left: 2px;
+  }
+  .Intro-name > :nth-child(3) {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--black);
+    text-align: center;
+  }
+  .Intro-name > :nth-child(4) {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: var(--black);
+    text-align: center;
+  }
+
+  .download_icon2 {
+    width: 10rem;
+  }
+
+  .download_icon1 {
+    width: 10rem;
+  }
+
+  /* .Intro-right {
+    transform: scale(0.8);
+    left: -10rem;
+    display: flex;
+    align-items: center;
+  } */
+
+  .Intro-right  {
+    display: none;
+  }
+
+  /* .Intro-icons {
+    display: flex;
+    align-items: center;
+    margin: auto; 
+  } */
+}
