@@ -14,10 +14,7 @@ import SoftAvatar from "~/components/SoftAvatar";
 
 // Soft UI Dashboard React examples
 import DashboardNavbar from "~/components/Navbars/DashboardNavbar";
-
-// Soft UI Dashboard React icons
-import Document from "~/components/Icons/Document";
-import Settings from "~/components/Icons/Settings";
+ 
 
 // Soft UI Dashboard React base styles
 import breakpoints from "~/assets/theme/base/breakpoints";

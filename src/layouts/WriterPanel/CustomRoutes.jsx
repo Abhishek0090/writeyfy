@@ -8,9 +8,8 @@ import WriterDetails from "~/pages/WriterPanel/WriterDetails/index";
 import Assignments from "~/pages/WriterPanel/Assignments/index";
 
 // Soft UI Dashboard React icons
-import Shop from "~/components/Icons/Shop"; 
-import CustomerSupport from "~/components/Icons/CustomerSupport";
-import CreditCard from "~/components/Icons/CreditCard";
+import Shop from "~/components/icons/Shop"; 
+import CustomerSupport from "~/components/icons/CustomerSupport";
 
 import { MdChat, MdOutlineAddTask, MdOutlineGrading ,MdEditSquare } from "react-icons/md";
 
