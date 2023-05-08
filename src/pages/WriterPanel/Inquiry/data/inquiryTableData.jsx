@@ -4,7 +4,7 @@ import SoftBox from "~/components/SoftBox";
 import SoftTypography from "~/components/SoftTypography";
 import SoftAvatar from "~/components/SoftAvatar";
 import SoftBadge from "~/components/SoftBadge";
-import Softbutton from "~/components/Softbutton";
+import Softbutton from "~/components/SoftButton";
  
 
 import React, { useContext, useState } from "react";
