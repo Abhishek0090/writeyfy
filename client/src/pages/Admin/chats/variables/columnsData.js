@@ -1,0 +1,88 @@
+export const columnsDataDevelopment = [
+  {
+    Header: "NAME",
+    accessor: "name",
+  },
+  {
+    Header: "TECH",
+    accessor: "tech",
+  },
+  {
+    Header: "DATE",
+    accessor: "date",
+  },
+  {
+    Header: "PROGRESS",
+    accessor: "progress",
+  },
+];
+
+export const columnsDataCheck = [
+  {
+    Header: "NAME",
+    accessor: "name",
+  },
+  {
+    Header: "PROGRESS",
+    accessor: "progress",
+  },
+  {
+    Header: "QUANTITY",
+    accessor: "quantity",
+  },
+  {
+    Header: "DATE",
+    accessor: "date",
+  },
+];
+
+export const columnsDataColumns = [
+  {
+    Header: "NAME",
+    accessor: "name",
+  },
+  {
+    Header: "PROGRESS",
+    accessor: "progress",
+  },
+  {
+    Header: "QUANTITY",
+    accessor: "quantity",
+  },
+  {
+    Header: "DATE",
+    accessor: "date",
+  },
+];
+
+export const columnsDataComplex = [
+  {
+    Header: "CHAT ID",
+    accessor: "chat_id",
+  },
+  {
+    Header: "ASSIGNMENT NAME",
+    accessor: "assignment_name",
+  },
+  {
+    Header: "USER NAME",
+    accessor: "username",
+  },
+  {
+    Header: "WRITER NAME",
+    accessor: "writername",
+  }, 
+  {
+    Header: "DATE",
+    accessor: "date",
+  },
+  {
+    Header: "STATUS",
+    accessor: "status",
+  },
+
+  {
+    Header: "VIEW CHATS",
+    accessor: "view_details",
+  },
+];

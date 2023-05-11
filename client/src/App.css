@@ -1,0 +1,106 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #000000;
+  --green: #258101;
+  --blue: #e38aed;
+  --purple: #81017d;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  /* --purple: rgb(238 210 255); */
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+
+  --transparent-black: rgba(0, 0, 0, 0.294);
+  /* --black: #111111; */
+  --grey: rgba(255, 255, 255, 0.597);
+  --orange: #ff805d;
+  --orange-gradient: linear-gradient(
+    268.35deg,
+    rgba(255, 70, 70, 0.99) 3.47%,
+    rgba(255, 114, 70, 0.99) 60.18%
+  );
+}
+
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  overflow: hidden;
+  /* background: rgb(244 247 254 / var(--tw-bg-opacity)); */
+  /* color: var(--black); */
+  /* background-color: #000000; */
+}
+
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: var(--orange-gradient);
+  filter: blur(83px);
+  z-index: -1;
+}
+
+/* .button { */
+/* background: #258101;
+  box-shadow: 0px 20px 24px 3px rgba(31, 82, 12, 0.42);
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px; */
+
+.button {
+  background-image: linear-gradient(
+    to right,
+    #fc00ff 0%,
+    #00dbde 51%,
+    #fc00ff 100%
+  );
+  margin: 10px;
+  padding: 11px 26px 11px 26px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* } */
+
+.adminBtn {
+  background: #258101;
+  box-shadow: 0px 20px 24px 3px rgba(31, 82, 12, 0.42);
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+}
+
+.adminBtn:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+/* .button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--green);
+  color: var(--green);
+} */
+@media screen and (max-width: 480px) {
+  .App {
+    /* padding: 0rem; */
+  }
+}
