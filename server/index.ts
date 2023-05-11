@@ -16,6 +16,8 @@ import { ErrorHandler } from "./middleware/createError";
 
 import swaggerSpec from "./Services/swagger";
 
+import path from "path";
+
 import * as dotenv from "dotenv";
 
 const app = express();
@@ -42,10 +44,6 @@ app.use(cookieParser()); //cookie
 // Serve swagger documentation
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-//file upload setup and to server inside public folder
-// to serve images inside public folder
-// app.use("/upload", uploadFile);
-
 db.connect((err: any) => {
   if (err) {
     console.error("Failed to connect to database:", err);
@@ -69,3 +67,16 @@ app.use("/user", userRoutes);
 
 // ERROR HANDLER MIDDLEWARE (Last middleware to use)
 app.use(ErrorHandler);
+
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("*", function (_, res) {
+  res.sendFile(
+    path.join(__dirname, "../client/build/index.html"),
+    function (err) {
+      if (err) {
+        res.status(500).send(err);
+      }
+    }
+  );
+});
